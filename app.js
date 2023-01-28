@@ -36,10 +36,10 @@ app.post("/", function (req, res) {
   var jsonData = JSON.stringify(data);
 
 
-  const url = "https:us21.api.mailchimp.com/3.0/lists/f3e88dfc5e";
+  const url = "https:us21.api.mailchimp.com/3.0/lists/cccccccc";
   const options = {
     method: "POST",
-    auth: "aditya:dc5acad3b2ba5ae68e08600b22195430e-us21",
+    auth: "aditya:jfhdfhkfjhsdjfhdfhjdhfdksj",
   };
 
 
@@ -68,5 +68,4 @@ app.listen(process.env.PORT||3000, function () {
   console.log("server is up");
 });
 
-// api key c5acad3b2ba5ae68e08600b22195430e-us21
-// audience id f3e88dfc5e
+
